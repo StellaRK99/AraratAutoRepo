@@ -1,0 +1,22 @@
+html,body{
+   height:100%;
+   margin:0;
+   padding: 0;
+	border: 0;
+   line-height: 1;
+   box-sizing:border-box;
+}
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+//COMPONENTS
+@import './components/Footer';
+@import './components/Banner';
+@import './components/Navbar';
+@import './components/Location';
+@import './components/Background';
+@import './components/ServiceList';
+@import './components/CarCard';
+@import './components/IndividualCarCard';

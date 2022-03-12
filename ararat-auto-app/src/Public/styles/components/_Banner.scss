@@ -1,0 +1,85 @@
+.background-img-container{
+  position: relative;
+  width:100%;
+  height:100vh;
+  opacity: 95%;
+  figure{
+    margin:0;
+    height:100%;
+      img{
+      object-fit: cover;
+      width:100%;
+      height:100%;
+    }
+  }
+  .slogan-container{
+    background-color: rgba(114, 4, 4, 0.555);
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 19px 38px, rgba(0, 0, 0, 0.301) 0px 15px 12px;
+    position:absolute;
+    top:80px;
+    left:2%;
+    height:80vh;
+    width:25%;
+    .slogan{
+      font-family: 'Jockey One';
+      font-size:30px;
+      font-style: italic;
+      color:white;
+      text-align: center;
+      padding-bottom: 20px;    
+      margin-left:15px;
+      margin-right:15px;
+      a{
+        text-decoration: none;
+        color:white;
+      }
+      a:hover{
+        color:yellow;
+      }
+    }
+  }
+
+
+@media(max-width:1360px){
+  .slogan-container{
+    width:30%;
+    .slogan{
+      h1{
+        font-size:48px;
+      }
+      h2{
+        font-size:32px;
+      }
+      
+    }
+  }
+}
+@media(max-width:1140px){
+  .slogan-container{
+    width:40%;
+    .slogan{
+      h1{
+        font-size:48px;
+      }
+      h2{
+        font-size:32px;
+      }
+      
+    }
+  }
+}
+@media(max-width:490px){
+  .slogan-container{
+    width:50%;
+    .slogan{
+      h1{
+        font-size:42px;
+      }
+      h2{
+        font-size:26px;
+      }
+      
+    }
+  }
+}
+}

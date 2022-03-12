@@ -1,0 +1,87 @@
+.service-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    padding-bottom:5%;
+    justify-content: space-evenly;
+    background-color: rgb(27, 27, 27);
+    .service-card{
+        margin-top:5%;
+        margin-bottom: 5%;
+        background-color: rgba(255, 0, 0, 0.226);
+        height:80vh;
+        width:20%;
+        box-shadow: rgba(0, 0, 0, 0.473) 0px 19px 38px, rgba(0, 0, 0, 0.301) 0px 15px 12px;
+        figure{
+            margin: auto;
+            width:100%;
+            height:300px;
+            img{
+                object-fit:cover;
+                width:100%;
+                height:100%;
+            }
+        }
+        h1{
+            margin-left:8%;
+            margin-right:8%;
+            color:white;
+            font-family: 'Jockey One';
+            font-size:35px;
+            text-align: center;
+        }
+        ul{
+            margin-left:20px;
+            margin-right:20px;
+            li{
+                font-family: 'Jockey One';
+                color:white;
+                font-size:20px;
+                list-style:square;
+            }
+        }
+    }
+}
+
+@media(max-width:1160px){
+    .service-card{
+        h1{
+            font-size:30px !important;
+        }
+    }
+}
+
+
+
+@media(max-width:1000px){
+    .service-container{
+       flex-wrap:wrap;
+
+        .service-card{
+            padding-bottom: 2%;
+            width:40%;
+            margin-left:10%;
+            margin-right:10%;
+            height:45vh;
+            flex-basis:100%;
+            figure{
+                height:180px;
+           
+            }
+        }
+    }
+}
+
+
+@media (max-width: 460px){
+    .service-card{
+        h1{
+            font-size:25px !important;
+        }
+        ul{
+            li{
+                font-size:15px !important;
+            }
+        }
+    }
+}
