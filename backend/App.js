@@ -8,6 +8,7 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 
+app.use(express.static("build"))
 
 //////////////GETALL///////////////////
 app.get("/cars", async (req, res) => {
@@ -74,9 +75,9 @@ app.delete("/cars/:id", async (req, res) => {
 
 
 
-
-
-
+app.get('*', (req, res) => {
+    res.sendFile('build/index.html');
+  });
 
 const port = 8080
 app.listen(port, () => {

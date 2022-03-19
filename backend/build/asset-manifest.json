@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.634cdaac.css",
+    "main.js": "/static/js/main.07176cb6.js",
+    "static/js/787.841c1ddc.chunk.js": "/static/js/787.841c1ddc.chunk.js",
+    "static/media/car-gfa99d119d_1920.jpg": "/static/media/car-gfa99d119d_1920.2937eca16df4751951f8.jpg",
+    "static/media/IMG_1557.jpg": "/static/media/IMG_1557.cbddc098612d6e29b4d3.jpg",
+    "static/media/location-map.png": "/static/media/location-map.3ce884c90588e0a9684d.png",
+    "static/media/oil-g956f15894_640.jpg": "/static/media/oil-g956f15894_640.ae8ac07720a4536e2782.jpg",
+    "static/media/auto-repair-g9026013df_640.jpg": "/static/media/auto-repair-g9026013df_640.43212df74f254d18f8bb.jpg",
+    "static/media/brake-disc-gae3d94c97_640.jpg": "/static/media/brake-disc-gae3d94c97_640.d0debe06386b278ff943.jpg",
+    "static/media/winter-tires-g4558f432a_640.jpg": "/static/media/winter-tires-g4558f432a_640.744ee66c5d33c9d127cc.jpg",
+    "index.html": "/index.html",
+    "main.634cdaac.css.map": "/static/css/main.634cdaac.css.map",
+    "main.07176cb6.js.map": "/static/js/main.07176cb6.js.map",
+    "787.841c1ddc.chunk.js.map": "/static/js/787.841c1ddc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.634cdaac.css",
+    "static/js/main.07176cb6.js"
+  ]
+}
